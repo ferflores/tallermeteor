@@ -1,0 +1,27 @@
+<head>
+  <title>taller</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				{{ >formulario}}
+			</div>
+			
+		</div>
+	
+ 		<div class="row">
+ 			<div class="col-sm-6">
+ 				{{ >lista}}
+ 			</div>
+ 			
+ 		</div>
+ 	</div>
+</body>
+
+<template name="formulario">
+	<input id="nombre" type="text" class="form-control"  placeholder="Nombre del pendiente">
+	<button id="crear" class="btn btn-success">Crear pendiente</button>
+</template>
+

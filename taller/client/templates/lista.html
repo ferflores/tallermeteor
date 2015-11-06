@@ -1,0 +1,10 @@
+<template name="lista">
+	<ul class="lista">
+		{{#each pendientes}}
+			<li> 
+			{{nombre}}
+			<button class="delete btn btn-danger"> Terminado</button>
+			 </li>
+		{{/each}}
+	</ul>
+</template>

@@ -1,0 +1,1 @@
+Pendientes = new Mongo.Collection('pendientes');
